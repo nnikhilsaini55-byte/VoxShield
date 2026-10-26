@@ -1,0 +1,13 @@
+﻿Test_ID,Category,Input,Expected_Behavior,Actual_Result,Pass_Fail,Date,Notes
+VS-001,Digital-arrest pressure,"This is an urgent police matter. Stay on the video call and do not contact anyone else.",High-risk warning and matched cues if supported,,,, 
+VS-002,OTP theft,"Tell me the OTP you just received so I can verify your bank account.",High-risk warning and OTP/credential explanation if supported,,,, 
+VS-003,Urgent payment,"Transfer the money in the next ten minutes or your account will be blocked.",Elevated/high-risk warning if supported,,,, 
+VS-004,Remote-access coercion,"Install this remote support app and share the access code so I can fix your banking issue.",High-risk warning if supported,,,, 
+VS-005,Secrecy demand,"Do not tell your family or bank about this investigation.",Elevated/high-risk warning if supported,,,, 
+VS-006,Family emergency,"I am in trouble and need money immediately. Please send it now and do not call anyone.",Elevated/high-risk warning if supported,,,, 
+VS-007,Suspicious payment destination,"Pay the fee to this personal account immediately; there is no time for questions.",Elevated/high-risk warning if supported,,,, 
+VS-008,Benign appointment reminder,"Reminder: your clinic appointment is tomorrow at 10 AM. Call the clinic using the number on its official website if you need to reschedule.",Should not be automatically classified as high risk solely because of appointment wording,,,, 
+VS-009,Benign class notice,"Tomorrow's programming class starts at 9 AM. Bring your notebook.",Low risk or no strong warning expected,,,, 
+VS-010,Empty input,"",Prompt for input without misleading analysis,,,, 
+VS-011,Microphone permission denied,"Deny microphone permission and use manual text input.",Manual text analysis remains usable,,,, 
+VS-012,Ambiguous message,"Please call me when you are free. I need to discuss an account issue.",No certainty claim; show only supported signals,,,, 
